@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.umich.fastfabricui1.demo.debug"
+4    android:versionCode="1"
+5    android:versionName="1.0-demo" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:10:5-46:19
+17        android:name="edu.umich.fastfabricui1.FastFabric"
+17-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:11:9-35
+18        android:allowBackup="true"
+18-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/ryan/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+26-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:17:9-65
+27        android:usesCleartextTraffic="true" >
+27-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:18:9-44
+28        <activity android:name="edu.umich.fastfabricui1.PreferStrengthActivity" />
+28-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:19:9-69
+28-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:19:19-57
+29        <activity android:name="edu.umich.fastfabricui1.PreferPrice" />
+29-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:20:9-49
+29-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:20:19-46
+30        <activity android:name="edu.umich.fastfabricui1.PreferencesActivity" />
+30-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:21:9-57
+30-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:21:19-54
+31        <activity android:name="edu.umich.fastfabricui1.MainActivity" >
+31-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:22:9-28:20
+31-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:22:19-47
+32            <intent-filter>
+32-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:24:17-69
+33-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:26:17-77
+35-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="edu.umich.fastfabricui1.ColorActivity" />
+38-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:29:9-51
+38-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:29:19-48
+39        <activity android:name="edu.umich.fastfabricui1.TextureActivity" />
+39-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:30:9-53
+39-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:30:19-50
+40        <activity android:name="edu.umich.fastfabricui1.StrengthActivity" />
+40-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:31:9-54
+40-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:31:19-51
+41        <activity android:name="edu.umich.fastfabricui1.BrandActivity" />
+41-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:32:9-51
+41-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:32:19-48
+42        <activity android:name="edu.umich.fastfabricui1.Product" />
+42-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:33:9-45
+42-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:33:19-42
+43        <activity
+43-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:34:9-36:62
+44            android:name="edu.umich.fastfabricui1.MaterialActivity"
+44-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:35:13-45
+45            android:parentActivityName="edu.umich.fastfabricui1.CategoryActivity" />
+45-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:36:13-59
+46        <activity
+46-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:37:9-39:62
+47            android:name="edu.umich.fastfabricui1.ResultsActivity"
+47-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:38:13-44
+48            android:parentActivityName="edu.umich.fastfabricui1.MaterialActivity" />
+48-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:39:13-59
+49        <activity
+49-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:40:9-42:58
+50            android:name="edu.umich.fastfabricui1.CategoryActivity"
+50-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:41:13-45
+51            android:parentActivityName="edu.umich.fastfabricui1.MainActivity" />
+51-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:42:13-55
+52        <activity
+52-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:43:9-45:58
+53            android:name="edu.umich.fastfabricui1.ImageActivity"
+53-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:44:13-42
+54            android:parentActivityName="edu.umich.fastfabricui1.MainActivity" />
+54-->/Users/ryan/Desktop/GoogolApp/app/src/main/AndroidManifest.xml:45:13-55
+55    </application>
+56
+57</manifest>

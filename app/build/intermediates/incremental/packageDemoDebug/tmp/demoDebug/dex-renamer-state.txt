@@ -1,0 +1,7 @@
+#Mon May 25 14:29:57 EDT 2020
+base.0=/Users/ryan/Desktop/GoogolApp/app/build/intermediates/dex/demoDebug/mergeExtDexDemoDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/ryan/Desktop/GoogolApp/app/build/intermediates/dex/demoDebug/mergeProjectDexDemoDebug/out/classes.dex

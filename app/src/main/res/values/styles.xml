@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+    </style>
+
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#62ff00</item>
+    </style>
+
+    <style name="upload_alert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/result_option_dialog</item>
+    </style>
+
+    <style name="base_button" parent="@android:style/Widget.Button">
+        <item name = "android:background">@drawable/button_rounded</item>
+    </style>
+
+</resources>
